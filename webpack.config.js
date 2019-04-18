@@ -35,7 +35,8 @@ module.exports = {
                     ['@babel/plugin-proposal-decorators', {
                         legacy: true
                     }],
-                    ['@babel/plugin-transform-react-constant-elements']
+                    ['@babel/plugin-transform-react-constant-elements'],
+                    ['babel-plugin-styled-components']
                 ]
             }
         }]

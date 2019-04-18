@@ -40,12 +40,10 @@ module.exports = {
             }
         }]
     },
-    devtool: 'inline-source-map',
     devServer: {
         port: 3600,
         inline: true
     },
-    devtool: 'inline-source-map',
     mode: 'development',
     plugins: [
         new HtmlWebpackPlugin()

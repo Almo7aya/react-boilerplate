@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('../node_modules/frow/dist/frow.css');
+
+:root {
+  /* Colors */
+  --color-light: #f3f3f2;
+  --color-text-dark: #333;
+  --color-text-gray: #d9d9d6;
+  --color-dark: #9abec0;
+  --color-green-dark: #36787a;
+  --color-brown-dark: #b27335;
+  --color-brown-light: #e59f46;
+
+  /* Sizes */
+}
+
+/* Global Styles */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* 10px in default font size 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-light);
+    color: var(--color-light) !important; /* To overwrite the fucking frow color in body */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none !important;
+  color: inherit !important;
+}
